@@ -3,8 +3,8 @@
   grid-template-columns: 1fr auto 1fr;
   justify-items: center;
   align-items: center;
+  margin: 92px 24px 96px;
   border: #000 1px;
-  padding: 92px 24px 96px 24px;
 }
 
 .header_menu {
@@ -56,7 +56,7 @@
 
 .cover {
   position: relative;
-  /* z-index: -2; */
+
   width: 1100px;
   height: 757px;
   min-height: 757px;
@@ -150,11 +150,12 @@
 }
 
 .lots {
-  position: absolute;
+  position: relative;
   min-width: 1052px;
   min-height: 692px;
   margin: 179px 24px 0px;
 }
+
 .lots_heading {
   width: 121px;
   height: 47px;
@@ -164,8 +165,8 @@
   font-size: 40px;
   text-transform: uppercase;
 }
+
 .lots_card-list {
-  /* min-height: 563px; */
   position: relative;
   display: flex;
   flex-direction: row;
@@ -173,20 +174,23 @@
   justify-content: space-around;
   gap: 25px;
   width: 1052px;
-  /* width: 100%; */
+
   list-style: none;
 }
+
 .lots_card-list-item {
-  flex-grow: 1;
-  flex-basis: auto;
+  /* flex-grow: 1;
+  flex-basis: auto; */
   min-height: 563px;
 }
+
 .card-link {
   position: relative;
   display: block;
   height: 100%;
   text-decoration: none;
 }
+
 .card {
   position: relative;
   display: flex;
@@ -196,6 +200,7 @@
   height: 100%;
   padding: 51px 40px 48px;
 }
+
 .card_type_film {
   z-index: 0;
   background-image: url(/images/card-lot-01.jpg);
@@ -209,6 +214,7 @@
   background-position: center;
   background-size: cover;
 }
+
 .card_type_picture {
   z-index: 0;
   background-image: url(/images/card-lot-03.jpg);
@@ -247,7 +253,51 @@
 }
 
 .about {
+  position: relative;
+  width: 1052px;
+  height: 595px;
+  /* padding: 146px 24px 0px;botom pad */
+  margin: 181px 24px 0px;
 }
 
-.footer {
+.about_column {
+  display: grid;
+  grid-template-columns: 334px auto;
+  column-gap: 25px;
+  /* grid-template-rows:  re; */
+}
+
+.about_logo {
+  position: relative;
+  z-index: 1;
+  grid-column: 1/2;
+  justify-self: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+}
+.about_logo-image {
+  padding: 63px 45px;
+}
+
+.about_title {
+  position: relative;
+  grid-column: 2/3;
+  align-self: center;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.about_text {
+  padding-top: 4px;
+  vertical-align: bottom;
+  position: relative;
+  width: 693px;
+  height: 315px;
+  grid-column: 2/3;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.09px;
 }
