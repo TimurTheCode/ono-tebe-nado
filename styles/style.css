@@ -63,7 +63,7 @@
   width: 1100px;
   height: 757px;
   min-height: 757px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -208,17 +208,17 @@
 
 .card_type_film {
   z-index: 0;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
   z-index: 0;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
   z-index: 0;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -307,7 +307,7 @@
   grid-template-columns: 1fr auto 1fr;
   width: 1000px;
   height: 98px;
-  margin: 185px 50px 88px;
+  margin: 180px 50px 88px;
 }
 
 .footer_addres {
