@@ -127,7 +127,7 @@
 .cover_description-text {
   position: relative;
   z-index: 2;
-  margin-top: 11px;
+  padding: 11px;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
