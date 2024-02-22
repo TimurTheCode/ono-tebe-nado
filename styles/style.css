@@ -1,4 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: bisque; */
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
 .header {
+  width: 1052px;
+  height: 105px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -307,7 +345,7 @@
   grid-template-columns: 1fr auto 1fr;
   width: 1000px;
   height: 98px;
-  margin: 180px 50px 88px;
+  margin: 185px 50px 88px;
 }
 
 .footer_addres {
