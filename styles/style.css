@@ -9,8 +9,8 @@
 
 .header_menu {
   grid-column: 1/6;
-  width: 391px;
-  height: 22px;
+  /* width: 391px;
+  height: 22px; */
 }
 
 .header_links-list {
