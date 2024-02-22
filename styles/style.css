@@ -9,8 +9,7 @@
 
 .header_menu {
   grid-column: 1/6;
-  /* width: 391px;
-  height: 22px; */
+
 }
 
 .header_links-list {
@@ -268,6 +267,7 @@
 .about_column {
   display: grid;
   grid-template-columns: 334px auto;
+  grid-template-rows: min-content 120px 168px;
   column-gap: 25px;
 }
 
@@ -307,6 +307,13 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+
+.second_p {
+  padding-top: 28px;
+  grid-row: 3;
+  grid-column: 2/3;
+
 }
 
 .footer {
