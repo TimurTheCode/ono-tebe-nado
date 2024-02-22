@@ -1,47 +1,12 @@
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li,
-blockquote {
-  margin: 0;
-  padding: 0;
-} */
-
-a {
-  color: inherit;
-}
-
-img {
-  width: 100%;
-}
-
 .header {
-  width: 1052px;
-  height: 105px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   justify-items: center;
   align-items: center;
-  margin: 92px 24px 96px;
+  width: 1052px;
+  height: 105px;
+  margin: 92px 24px 102px;
 }
 
 .header_menu {
@@ -370,7 +335,7 @@ img {
   text-align: center;
   text-decoration-thickness: 1px;
   text-underline-offset: 4.3px;
-} 
+}
 
 .footer__menu-list-item {
   list-style: none;
