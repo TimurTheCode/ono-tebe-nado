@@ -1,11 +1,10 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
 body {
-  /* background-color: bisque; */
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
@@ -24,7 +23,7 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
-}
+} */
 
 a {
   color: inherit;
