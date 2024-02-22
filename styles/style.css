@@ -1,12 +1,13 @@
+
 .header {
+  width: 1052px;
+  height: 105px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   justify-items: center;
   align-items: center;
-  width: 1052px;
-  height: 105px;
-  margin: 92px 24px 102px;
+  margin: 92px 24px 97px;
 }
 
 .header_menu {
@@ -335,7 +336,7 @@
   text-align: center;
   text-decoration-thickness: 1px;
   text-underline-offset: 4.3px;
-}
+} 
 
 .footer__menu-list-item {
   list-style: none;
